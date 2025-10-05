@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Reel</title>
+    <style>
+        /* Basic styling to make sure the reel is centered and fills the page */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent; /* Makes the background invisible inside the iframe */
+        }
+        .instagram-media {
+            max-width: 98% !important; /* Ensures it fits nicely within the iframe */
+            width: 100% !important;
+            margin: auto !important;
+            box-shadow: none !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- This is the original Instagram embed code from the Canvas -->
+    <blockquote
+      class="instagram-media"
+      data-instgrm-captioned
+      data-instgrm-permalink="https://www.instagram.com/reel/DFqWGdeuef6/"
+      data-instgrm-version="14"
+    ></blockquote>
+    
+    <!-- This script is required by Instagram to load the video -->
+    <script async src="//www.instagram.com/embed.js"></script>
+</body>
+</html>
